@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+   char str[100];
+   printf("enter string name");
+   scanf("%s",str);
+   int i=0;
+   while(str[i])
+   {
+       ++str[i];
+       ++i;
+   }
+    printf("the output string is%s\n",str);
+    return 0;
+}
